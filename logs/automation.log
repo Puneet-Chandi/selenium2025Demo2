@@ -1,0 +1,169 @@
+00:26:13.467 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:29:28.848 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:32:52.639 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:32:52.965 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml
+
+00:32:58.576 [TestNG-tests-2] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:33:00.746 [TestNG-tests-2] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:32)oggger - User Logged in as EWGKhjeZEC
+00:33:01.845 [TestNG-tests-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:96)oggger - Browser is closed
+00:34:40.008 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\login.xml"
+00:34:40.302 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\login.xml
+
+00:35:21.972 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\login.xml"
+00:35:22.294 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\login.xml
+
+00:37:11.945 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:37:12.267 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml
+
+00:37:17.389 [TestNG-tests-2] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:37:18.289 [TestNG-tests-1] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:37:19.136 [TestNG-tests-1] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:35)oggger - stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd56b6ada677d02fa78f2705eb841d9e, clickElement {id=f.7DBD028984AC1B928C0A0CB3705C69B9.d.3FBE5A5D02BD0AB17F57398BD7756368.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Punee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53508/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dd56b6ada677d02fa78f2705eb841d9e)] -> xpath: //a[@href='/login']]
+Session ID: dd56b6ada677d02fa78f2705eb841d9e
+00:37:19.589 [TestNG-tests-2] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:35)oggger - Error communicating with the remote browser. It may have died.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd56b6ada677d02fa78f2705eb841d9e, sendKeysToElement [value, id]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Punee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53508/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dd56b6ada677d02fa78f2705eb841d9e)] -> xpath: //form[@action='/login']/input[@name='email']]
+Session ID: dd56b6ada677d02fa78f2705eb841d9e
+00:37:19.601 [TestNG-tests-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:96)oggger - Browser is closed
+00:39:15.726 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:39:16.105 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml
+
+00:39:22.243 [TestNG-tests-1] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:39:22.253 [TestNG-tests-2] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:39:23.175 [TestNG-tests-1] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:35)oggger - stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b31cb5154f13d78ccb07449746c5aefc, clickElement {id=f.60A45BD84847D49AAEE965F586159679.d.ED09793B34DF74CB3CA54367E5EF5842.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Punee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53603/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b31cb5154f13d78ccb07449746c5aefc)] -> xpath: //a[@href='/login']]
+Session ID: b31cb5154f13d78ccb07449746c5aefc
+00:39:23.481 [TestNG-tests-2] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:35)oggger - Error communicating with the remote browser. It may have died.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b31cb5154f13d78ccb07449746c5aefc, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Punee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53603/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b31cb5154f13d78ccb07449746c5aefc
+00:39:23.495 [TestNG-tests-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:96)oggger - Browser is closed
+00:41:07.108 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:41:07.488 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml
+
+00:41:12.915 [TestNG-tests-1] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:41:15.822 [TestNG-tests-2] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:41:17.157 [TestNG-tests-1] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:35)oggger - stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbdf527ea59e9b00e36f10351b778723, sendKeysToElement {value=[Ljava.lang.CharSequence;@648fe4bc, id=f.BCC967F22C0FA887F10A9E3FB693374A.d.3E5BAF70EBA32430CFE58AB5821AAC47.e.85}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Punee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53663}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53663/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fbdf527ea59e9b00e36f10351b778723)] -> xpath: //form[@action='/login']/input[@name='email']]
+Session ID: fbdf527ea59e9b00e36f10351b778723
+00:41:17.663 [TestNG-tests-2] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:35)oggger - Error communicating with the remote browser. It may have died.
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbdf527ea59e9b00e36f10351b778723, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Punee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53663}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53663/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbdf527ea59e9b00e36f10351b778723
+00:41:17.672 [TestNG-tests-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:96)oggger - Browser is closed
+00:42:25.574 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\login.xml"
+00:42:25.899 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\login.xml
+
+00:42:54.707 [main] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:43:00.837 [main] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:32)oggger - User Logged in as EWGKhjeZEC
+00:43:06.063 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:96)oggger - Browser is closed
+00:43:51.124 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:43:51.442 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml
+
+00:43:55.754 [TestNG-tests-2] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:44:02.096 [TestNG-tests-1] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:44:17.805 [TestNG-tests-1] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:32)oggger - User Logged in as EWGKhjeZEC
+00:44:20.755 [TestNG-tests-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:96)oggger - Browser is closed
+00:44:25.202 [TestNG-tests-2] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:35)oggger - no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()="Your email or password is incorrect!"]"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65aaaa71ba85c4fe88d1b08ed1899ea0, findElement {value=//p[text()="Your email or password is incorrect!"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Punee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54061/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65aaaa71ba85c4fe88d1b08ed1899ea0
+00:44:25.209 [TestNG-tests-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:96)oggger - Browser is closed
+00:46:25.284 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:46:25.594 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml
+
+00:46:30.863 [TestNG-tests-2] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:46:36.923 [TestNG-tests-1] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:46:41.971 [TestNG-tests-1] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:32)oggger - User Logged in as EWGKhjeZEC
+00:46:46.301 [TestNG-tests-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:96)oggger - Browser is closed
+00:48:07.145 [TestNG-tests-2] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:35)oggger - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, findElement {value=//form[@action='/login']/input[@name='email'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:debuggerAddress: 127.0.0.1:37666, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5580, moz:profile: C:\Users\Punee\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:37666/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+00:48:07.151 [TestNG-tests-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:96)oggger - Browser is closed
+00:48:51.922 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:48:52.228 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml
+
+00:48:52.396 [TestNG-tests-1] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:35)oggger - Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+00:48:56.529 [TestNG-tests-2] INFO  testBase.BaseClass.setup(BaseClass.java:89)oggger - Application is launched successfully
+00:48:59.216 [TestNG-tests-2] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:32)oggger - User Logged in as EWGKhjeZEC
+00:49:00.142 [TestNG-tests-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:96)oggger - Browser is closed
+00:52:31.606 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:52:31.912 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml
+
+00:52:35.347 [TestNG-tests-2] INFO  testBase.BaseClass.setup(BaseClass.java:90)oggger - Application is launched successfully
+00:52:38.574 [TestNG-tests-2] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:32)oggger - User Logged in as EWGKhjeZEC
+00:52:39.736 [TestNG-tests-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:97)oggger - Browser is closed
+00:53:12.252 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:53:12.560 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml
+
+00:53:17.491 [TestNG-tests-2] INFO  testBase.BaseClass.setup(BaseClass.java:90)oggger - Application is launched successfully
+00:53:21.707 [TestNG-tests-2] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:32)oggger - User Logged in as EWGKhjeZEC
+00:53:22.815 [TestNG-tests-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:97)oggger - Browser is closed
+00:54:30.351 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml"
+00:54:30.675 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\CrossBrowser.xml
+
+00:54:34.867 [TestNG-tests-2] INFO  testBase.BaseClass.setup(BaseClass.java:90)oggger - Application is launched successfully
+00:55:43.964 [TestNG-tests-2] INFO  testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:35)oggger - invalid session id
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [5545649b45570778a13ea2dda7809213, findElement {using=xpath, value=//p[text()="Your email or password is incorrect!"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\Punee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54815}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.23:4444/sess..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5545649b45570778a13ea2dda7809213
+00:55:44.022 [TestNG-tests-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:97)oggger - Browser is closed
+00:55:49.852 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\Punee\pc_automation\selenium2025Demo1-main\login.xml"
+00:55:50.153 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Punee\pc_automation\selenium2025Demo1-main\login.xml
+
