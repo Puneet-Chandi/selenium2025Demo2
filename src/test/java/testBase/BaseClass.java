@@ -30,10 +30,12 @@ public class BaseClass {
 	public Logger logger;  //Logger is interface
 	public Properties prop;
 	
-	@SuppressWarnings("deprecation")
-	@BeforeClass(groups= {"Sanity","Regression","Master"})
+	
 	@Parameters({"os","browser"})
+	@BeforeClass(groups= {"Sanity","Regression","Master"})	
  	public void setup(String os, String br) throws IOException {
+		
+	//	os="windows"; br="chrome";
 		
 		//Loading config.properties
 		

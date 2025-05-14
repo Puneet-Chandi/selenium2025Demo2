@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Edge</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 14 00:54:30 MST 2025</td>
+<td>Started on:</td><td>Wed May 14 04:07:37 MST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>180 seconds (180724 ms)</td>
+<tr><td>Total time:</td><td>16 seconds (16318 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,57 +76,56 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC002_AccountLoginTest.setup()'><b>setup</b><br>Test class: testCases.TC002_AccountLoginTest<br>Parameters: windows, firefox</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;PC-MACHINE&apos;, ip: &apos;192.168.1.23&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
-	at testBase.BaseClass.setup(BaseClass.java:70)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+<td title='testCases.TC002_AccountLoginTest.tearDown()'><b>tearDown</b><br>Test class: testCases.TC002_AccountLoginTest</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [881e3ea0-a648-41a9-9f4d-855d36dee63d, quit []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:debuggerAddress: localhost:46400, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 3220, moz:profile: C:\Users\Punee\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:46400/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:397)
+	at testBase.BaseClass.tearDown(BaseClass.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.CompletableFuture$AsyncSupply@db92141 rejected from java.util.concurrent.ThreadPoolExecutor@5ae075f3[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782)
+	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	... 22 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-	... 32 more
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace781673015", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace781673015'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;PC-MACHINE&apos;, ip: &apos;192.168.1.23&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
-	at testBase.BaseClass.setup(BaseClass.java:70)
+	... 24 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace856486838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace856486838'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [881e3ea0-a648-41a9-9f4d-855d36dee63d, quit []]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:debuggerAddress: localhost:46400, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 3220, moz:profile: C:\Users\Punee\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:46400/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:397)
+	at testBase.BaseClass.tearDown(BaseClass.java:96)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -135,48 +134,22 @@ Host info: host: &apos;PC-MACHINE&apos;, ip: &apos;192.168.1.23&apos;
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.CompletableFuture$AsyncSupply@db92141 rejected from java.util.concurrent.ThreadPoolExecutor@5ae075f3[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782)
+	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	... 22 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-	... 32 more
+	... 24 more
 </pre></div></td>
-<td>180</td>
-<td>testCases.TC002_AccountLoginTest@4ce7fffa</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCases.TC002_AccountLoginTest.tearDown()'><b>tearDown</b><br>Test class: testCases.TC002_AccountLoginTest</td>
-<td></td>
 <td>0</td>
-<td>testCases.TC002_AccountLoginTest@4ce7fffa</td></tr>
+<td>testCases.TC002_AccountLoginTest@134d26af</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -185,56 +158,29 @@ Caused by: java.util.concurrent.TimeoutException
 </tr>
 <tr>
 <td title='testCases.TC002_AccountLoginTest.verifyLogin()'><b>verifyLogin</b><br>Test class: testCases.TC002_AccountLoginTest</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;PC-MACHINE&apos;, ip: &apos;192.168.1.23&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
-	at testBase.BaseClass.setup(BaseClass.java:70)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+<td><div><pre>java.lang.AssertionError: null
+	at testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	... 22 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-	... 32 more
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1809942210", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1809942210'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;PC-MACHINE&apos;, ip: &apos;192.168.1.23&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
-	at testBase.BaseClass.setup(BaseClass.java:70)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1649718007", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1649718007'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC002_AccountLoginTest.verifyLogin(TC002_AccountLoginTest.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -243,31 +189,10 @@ Host info: host: &apos;PC-MACHINE&apos;, ip: &apos;192.168.1.23&apos;
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	... 22 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:2004)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2139)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-	... 32 more
+	at java.base/java.lang.Thread.run(Thread.java:1583)
 </pre></div></td>
-<td>0</td>
-<td>testCases.TC002_AccountLoginTest@4ce7fffa</td></tr>
+<td>1</td>
+<td>testCases.TC002_AccountLoginTest@134d26af</td></tr>
 </table><p>
 </body>
 </html>
